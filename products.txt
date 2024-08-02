@@ -1,0 +1,4 @@
+Tomato, 16.1, Vegetables
+Cabbage, 5.5, Vegetables
+Cherry, 12.4, Berries
+Apple, 6.9, Fruits
