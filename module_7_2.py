@@ -3,9 +3,9 @@ str_num = 0
 
 
 def custom_write(file_name, strings):
+    global str_num
     for i in strings:
         file = open(file_name, 'a', encoding='utf-8')
-        global str_num
         str_num += 1
         strings_positions.update({(str_num, file.tell()): i})
         file.write(f'{i}\n')
